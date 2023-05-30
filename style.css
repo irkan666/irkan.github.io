@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+}
+
+.left,
+.middle {
+    color: black;
+}
+
+.right img {
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    flex-basis: 50%;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    /* Add desired spacing between images */
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column:last-child {
+    margin-bottom: 0;
+    /* Remove bottom margin from the last column */
+}
