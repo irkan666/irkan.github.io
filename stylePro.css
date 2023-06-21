@@ -1,0 +1,45 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+.column img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 1px;
+    /* Add desired spacing between images */
+}
+
+
+.right img {
+    width: 25px;
+    height: 25px;
+}
+
+.left,
+.middle {
+    color: black;
+}
+
+.column {
+    padding: 10px;
+}
